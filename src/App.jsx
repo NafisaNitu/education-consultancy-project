@@ -201,19 +201,39 @@ function App() {
                 </a>
 
                <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 flex flex-col items-center gap-3">
-                   <i class="fa-solid fa-building-columns text-[#1B9FCB] text-4xl"></i>
+                   <i class="fa-solid fa-building-columns text-[#1B9FCB] text-4xl h-10"></i>
                     <h3 class="font-medium text-lg tracking-wider">Eligibility Assessment</h3>
                 </a>
                <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 flex flex-col items-center gap-3">
-                   <i class="fa-solid fa-file-invoice-dollar text-[#1B9FCB] text-4xl"></i>
+                   <i class="fa-solid fa-file-invoice-dollar text-[#1B9FCB] text-4xl h-10"></i>
                     <h3 class="font-medium text-lg tracking-wider">Eligibility Assessment</h3>
                 </a>
 
-                 <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 mx-auto">
-                 <div className='h-10'>
-                    <i class=""></i>
-                 </div>
-                    <h3 class="font-medium text-lg tracking-wider">Eligibility ee Assessment</h3>
+                 <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 flex flex-col items-center gap-3">
+                   <i class=" h-10"></i>
+                    <h3 class="font-medium text-lg tracking-wider">Eligibility Assessment</h3>
+                </a>
+            </div>
+
+            <div className='flex justify-center items-center gap-6 mt-8'>
+
+                <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 flex flex-col items-center gap-3">
+                   <i class="fa-solid fa-dollar-sign text-[#1B9FCB] text-4xl h-10"></i>
+                    <h3 class="font-medium text-lg tracking-wider">Eligibility Assessment</h3>
+                </a>
+
+               <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 flex flex-col items-center gap-3">
+                   <i class="h-10"></i>
+                    <h3 class="font-medium text-lg tracking-wider">Eligibility Assessment</h3>
+                </a>
+               <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 flex flex-col items-center gap-3">
+                   <i class="fa-solid fa-file-pen text-[#1B9FCB] text-4xl h-10"></i>
+                    <h3 class="font-medium text-lg tracking-wider">Eligibility Assessment</h3>
+                </a>
+
+                 <a href="" class="w-1/4 h-24 hover:box-shadow relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] hover:after:bg-[#1B9FCB] transition-all duration-400 rounded-md py-2 flex flex-col items-center gap-3">
+                   <i class="fa-solid fa-plane-departure text-[#1B9FCB] text-4xl h-10"></i>
+                    <h3 class="font-medium text-lg tracking-wider">Eligibility Assessment</h3>
                 </a>
             </div>
         </div>
