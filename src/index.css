@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+    .navbar-text {
+        @apply  text-[17px] font-roboto font-medium text-gray-100 hover:text-gray-400 transition duration-300 py-2 cursor-pointer
+    }
+    .sub-navbar-text {
+        @apply  block px-4 py-2 text-gray-600 hover:text-[#286EE8] font-roboto text-[17px]
+    }
+    .form-input {
+        @apply pl-10 py-4 w-full border border-[#E0ECFC] rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-400 bg-transparent placeholder-gray-600 font-medium font-public
+    }
+}
+
+
+@layer utilities {
+    .box-shadow{
+        box-shadow: 0 10px 24px #C0C3C7;
+    }
+}
+
+    .apply-button{
+        margin:0px;
+        text-align: center;
+        white-space:nowrap;
+        overflow:hidden;
+        border-right: 2px solid white;
+         width: 12ch; 
+        animation: typing 4s steps(22, end) 1s infinite alternate,
+             blink 0.7s step-end infinite;
+    }
+
+   @keyframes typing {
+        from { width: 0; }
+        to { width: 12ch; } 
+    }
+
+    @keyframes blink {
+    50% { border-color: transparent; }
+    }
